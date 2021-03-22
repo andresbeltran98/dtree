@@ -1,0 +1,12 @@
+Information Gain
+outlook[rainy->windy[False->(Leaf 1), True->(Leaf 0)], sunny->humidity[≤77.5->(Leaf 1), >77.5->(Leaf 0)], overcast->(Leaf 1)]
+Predicted class (1=Yes, 0=No): 1 
+
+Gain Ratio
+temperature[≤84.0->humidity[>88.0->outlook[overcast->(Leaf 1), rainy->windy[True->(Leaf 0), False->(Leaf 1)], sunny->(Leaf 0)], ≤88.0->windy[False->(Leaf 1), True->outlook[rainy->(Leaf 0), sunny->(Leaf 1), overcast->(Leaf 1)]]], >84.0->(Leaf 0)]
+Predicted class (1=Yes, 0=No): 1 
+
+Gini Impurity
+temperature[>84.0->(Leaf 0), ≤84.0->humidity[>88.0->outlook[sunny->(Leaf 0), overcast->(Leaf 1), rainy->windy[True->(Leaf 0), False->(Leaf 1)]], ≤88.0->outlook[overcast->(Leaf 1), sunny->(Leaf 1), rainy->windy[True->(Leaf 0), False->(Leaf 1)]]]]
+Predicted class (1=Yes, 0=No): 1 
+
